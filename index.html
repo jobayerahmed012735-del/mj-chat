@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M+J❤️</title>
+<style>
+body {
+  background: #101010;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 { color: #ff3155; font-size: 40px; }
+button {
+  background: #ff3155;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+<h1>M+J❤️</h1>
+<p>শুধু আমাদের দুজনের জগৎ ❤️</p>
+<button onclick="alert('স্বাগতম M+J❤️')">
+শুরু করো
+</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M+J❤️</title>
+<style>
+body {
+  background: #101010;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 35px 20px;
+}
+h1 { color: #ff3155; font-size: 36px; }
+.box {
+  max-width: 360px;
+  margin: 45px auto;
+  background: #1c1c1c;
+  padding: 24px;
+  border-radius: 18px;
+}
+input {
+  width: 90%;
+  padding: 13px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: #101010;
+  color: white;
+  font-size: 16px;
+}
+button {
+  background: #ff3155;
+  color: white;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-top: 12px;
+}
+</style>
+</head>
+<body>
+<h1>M+J❤️</h1>
+<p>Our Private Space</p>
+<div class="box">
+  <h2>লগইন ❤️</h2>
+  <input id="email" type="email"
+    placeholder="তোমার ইমেইল">
+  <input id="password" type="password"
+    placeholder="পাসওয়ার্ড">
+  <button onclick="login()">লগইন করো</button>
+  <p id="message"></p>
+</div>
+<script>
+function login() {
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value;
+  const message = document.getElementById('message');
+
+  if (!email || !password) {
+    message.textContent = 'ইমেইল ও পাসওয়ার্ড লিখো।';
+  } else {
+    message.textContent =
+      'লগইন ব্যবস্থা এখনো সেটআপ করা হয়নি।';
+  }
+}
+</script>
+</body>
+</html>
+
